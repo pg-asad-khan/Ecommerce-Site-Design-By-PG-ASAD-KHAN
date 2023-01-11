@@ -1,0 +1,236 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+
+.logo{
+    padding-left: 20px;
+    display: flex;
+}
+
+.socialbar{
+    position: fixed;
+    margin-left: 15px;
+    margin-top: 250px;
+    background-color: rgb(231, 234, 238);
+    transform: translate(-50%);
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 50px;
+    border: 1px solid rgb(208, 214, 221);
+    box-shadow: 4px 4px rgb(223, 190, 190);
+}
+
+.socialbar i{
+display: flex;
+flex-direction: column;
+margin-left: 10px;
+justify-content: center;
+align-items: center;
+}
+
+.searcharea{
+    position: absolute;
+    right: 25px;
+    top: 30px;
+    position: fixed;
+    border: 4px solid rgb(105, 74, 74);
+    border-radius: 50px;
+    padding: -10px;
+    padding-left: 10px;
+    box-shadow: 4px 4px rgb(223, 190, 190);
+}
+
+.searcharea input{
+
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    padding: 10px;
+
+    padding-left: 20px;
+}
+.content img{
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+.summer{
+    position: absolute;
+    right: 300px;
+    top: 40%;
+}
+
+.color{
+    color: blue;
+}
+
+.ptag{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+button{
+    font-size: 20px;
+    background-color: blue;
+    color: white;
+    border-radius: 50px;
+    padding: 7px 20px;
+
+    box-shadow: 4px 4px rgb(223, 190, 190);
+
+    border: 1px solid rgb(61, 53, 53);
+}
+
+button:hover{
+    transition: all ease-in 0.5s;
+    font-size: 20px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 50px;
+    padding: 7px 20px;
+
+    box-shadow: 4px 4px rgb(223, 190, 190);
+    cursor: pointer;
+
+    border: 1px solid rgb(61, 53, 53);
+}
+
+.socialbar a{
+    color: rgb(37, 35, 35);
+    text-decoration: none;
+}
+.socialbar a:hover .fa-facebook-f{
+    color:rgb(17, 0, 255);
+    transition: all ease-in 0.5s;
+}
+
+.socialbar a:hover .fa-instagram{
+    color: #E1306C;
+    transition: all ease-in 0.5s;
+}
+
+.socialbar a:hover .fa-twitter{
+   color: #1DA1F2;
+   transition: all ease-in 0.5s;
+}
+
+.socialbar a:hover .fa-youtube{
+    color: #FF0000;
+    transition: all ease-in 0.5s;
+}
+
+.collection{
+    text-align: center;
+    font-size: 30px;
+}
+
+.products img{
+    height: 200px;
+}
+
+.productsection{
+    margin: 0% auto;
+width: 85%;
+height: 1030px;
+box-shadow: 2px 2px 30px rgb(185, 176, 176);
+}
+
+
+.products{
+float: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+margin-left: 40px;
+margin-top: 40px;
+}
+.productstext{
+    font-size: 10px;
+}
+
+.products input{
+    display: none;
+}
+
+.products:hover > input{
+    display: block;
+    background-color: blue;
+    color: white;
+    padding: 7px 20px;
+    border-radius: 50px;
+    box-shadow: 4px 4px rgb(223 190 190);
+    border: 1px
+    px
+     solid rgb(61, 53, 53);
+     transition: all ease-in 0.5s;
+}
+
+.products:hover > input:hover{
+    background-color: black;
+    transition: all ease-in 0.5s;
+}
+
+.pricefor{
+    color: blue;
+}
+
+.aboutco{
+    width: 85%;
+    height: 350px;
+    box-shadow: 2px 2px 30px rgb(223 190 190);
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.aboutcoimg{
+    height: 300px;
+    position: absolute;
+    right: 90px;
+    margin-top: 35px;
+}
+
+.aboutco h3{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.aboutco p{
+    margin-left: 40px;
+    margin-top: -4px;
+}
+
+footer{
+    border-radius: 50px;
+    border: 1px solid rgb(61, 53, 53);;
+    box-shadow:4px 4px rgb(223, 190, 190);
+    background: blue;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 85%;
+    margin-left: 83px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footerpg{
+    color: rgb(0, 0, 0);
+    background-color: white;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 12px;
+}
+
+.footerpg:hover{
+    background-color: black;
+    color: white;
+    transition: all ease 0.5s;
+   box-shadow:4px 4px rgb(223, 190, 190);
+   border: 1px solid rgb(61, 53, 53);
+}

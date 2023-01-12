@@ -261,3 +261,103 @@ footer{
     padding: 10px;
     border-radius: 10px;
 }
+
+/*mobile-view-START*/
+@media(max-width:768px){
+    .logo{
+        width: 200px;
+        font-size: 6px;
+    }
+
+    .searcharea{
+    position: absolute;
+    margin-right: 170px;
+    margin-top: 5px;
+    width: 0px;
+    height: 0px;
+    left: 185px;
+    }
+.searcharea input{
+    position: absolute;
+    border: 1px solid black;
+    width: 150px;
+    height: 15px;
+    margin-left: -170px;
+}
+.searchiconpg{
+    position: absolute;
+    left: 40px;
+    margin-top: 11px;
+}
+.content img{
+    height: 80px;
+    margin-left: 30px;
+}
+.summer{
+    position: absolute;
+    top: 200px;
+    right: 289px;
+    font-size: 5px;
+}
+.ptag{
+    font-size: 5px;
+}
+.summer button{
+    font-size: 5px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.collection{
+    margin-top: 100px;
+    margin-left: -200px;
+}
+.productsection{
+    width: 200px;
+    margin-left: 0;
+    height: 2200px;
+}
+.products{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.products img{
+   height: 40px; 
+   display: flex;
+   flex-direction: column;
+}
+.productstext{
+    font-size: 5px;
+}
+.aboutco{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 2px;
+    width: 200px;
+    font-size: 5px;
+    height: 300px;
+}
+.aboutcoimg{
+    height: 100px;
+    margin-right: -80px;
+    margin-top: 150px;
+}
+footer{
+    margin-top: 340px;
+    margin-bottom: 0px;
+    font-size: 5px;
+    margin-left: 2px;
+    padding: 5px;
+}
+.footerpg{
+    font-size: 5px;
+    padding: 5px;
+}
+.footertext{
+
+}
+}
